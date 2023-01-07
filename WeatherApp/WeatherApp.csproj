@@ -1,0 +1,1051 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\Cloud.png" />
+    <None Remove="Images\Countries\ad.png" />
+    <None Remove="Images\Countries\ae.png" />
+    <None Remove="Images\Countries\af.png" />
+    <None Remove="Images\Countries\ag.png" />
+    <None Remove="Images\Countries\ai.png" />
+    <None Remove="Images\Countries\al.png" />
+    <None Remove="Images\Countries\am.png" />
+    <None Remove="Images\Countries\ao.png" />
+    <None Remove="Images\Countries\aq.png" />
+    <None Remove="Images\Countries\ar.png" />
+    <None Remove="Images\Countries\as.png" />
+    <None Remove="Images\Countries\at.png" />
+    <None Remove="Images\Countries\au.png" />
+    <None Remove="Images\Countries\aw.png" />
+    <None Remove="Images\Countries\ax.png" />
+    <None Remove="Images\Countries\az.png" />
+    <None Remove="Images\Countries\ba.png" />
+    <None Remove="Images\Countries\bb.png" />
+    <None Remove="Images\Countries\bd.png" />
+    <None Remove="Images\Countries\be.png" />
+    <None Remove="Images\Countries\bf.png" />
+    <None Remove="Images\Countries\bg.png" />
+    <None Remove="Images\Countries\bh.png" />
+    <None Remove="Images\Countries\bi.png" />
+    <None Remove="Images\Countries\bj.png" />
+    <None Remove="Images\Countries\bl.png" />
+    <None Remove="Images\Countries\bm.png" />
+    <None Remove="Images\Countries\bn.png" />
+    <None Remove="Images\Countries\bo.png" />
+    <None Remove="Images\Countries\bq.png" />
+    <None Remove="Images\Countries\br.png" />
+    <None Remove="Images\Countries\bs.png" />
+    <None Remove="Images\Countries\bt.png" />
+    <None Remove="Images\Countries\bv.png" />
+    <None Remove="Images\Countries\bw.png" />
+    <None Remove="Images\Countries\by.png" />
+    <None Remove="Images\Countries\bz.png" />
+    <None Remove="Images\Countries\ca.png" />
+    <None Remove="Images\Countries\cc.png" />
+    <None Remove="Images\Countries\cd.png" />
+    <None Remove="Images\Countries\cf.png" />
+    <None Remove="Images\Countries\cg.png" />
+    <None Remove="Images\Countries\ch.png" />
+    <None Remove="Images\Countries\ci.png" />
+    <None Remove="Images\Countries\ck.png" />
+    <None Remove="Images\Countries\cl.png" />
+    <None Remove="Images\Countries\cm.png" />
+    <None Remove="Images\Countries\cn.png" />
+    <None Remove="Images\Countries\co.png" />
+    <None Remove="Images\Countries\cr.png" />
+    <None Remove="Images\Countries\cu.png" />
+    <None Remove="Images\Countries\cv.png" />
+    <None Remove="Images\Countries\cw.png" />
+    <None Remove="Images\Countries\cx.png" />
+    <None Remove="Images\Countries\cy.png" />
+    <None Remove="Images\Countries\cz.png" />
+    <None Remove="Images\Countries\de.png" />
+    <None Remove="Images\Countries\dj.png" />
+    <None Remove="Images\Countries\dk.png" />
+    <None Remove="Images\Countries\dm.png" />
+    <None Remove="Images\Countries\do.png" />
+    <None Remove="Images\Countries\dz.png" />
+    <None Remove="Images\Countries\ec.png" />
+    <None Remove="Images\Countries\ee.png" />
+    <None Remove="Images\Countries\eg.png" />
+    <None Remove="Images\Countries\eh.png" />
+    <None Remove="Images\Countries\er.png" />
+    <None Remove="Images\Countries\es.png" />
+    <None Remove="Images\Countries\et.png" />
+    <None Remove="Images\Countries\fi.png" />
+    <None Remove="Images\Countries\fj.png" />
+    <None Remove="Images\Countries\fk.png" />
+    <None Remove="Images\Countries\fm.png" />
+    <None Remove="Images\Countries\fo.png" />
+    <None Remove="Images\Countries\fr.png" />
+    <None Remove="Images\Countries\ga.png" />
+    <None Remove="Images\Countries\gb-eng.png" />
+    <None Remove="Images\Countries\gb-nir.png" />
+    <None Remove="Images\Countries\gb-sct.png" />
+    <None Remove="Images\Countries\gb-wls.png" />
+    <None Remove="Images\Countries\gb.png" />
+    <None Remove="Images\Countries\gd.png" />
+    <None Remove="Images\Countries\ge.png" />
+    <None Remove="Images\Countries\gf.png" />
+    <None Remove="Images\Countries\gg.png" />
+    <None Remove="Images\Countries\gh.png" />
+    <None Remove="Images\Countries\gi.png" />
+    <None Remove="Images\Countries\gl.png" />
+    <None Remove="Images\Countries\gm.png" />
+    <None Remove="Images\Countries\gn.png" />
+    <None Remove="Images\Countries\gp.png" />
+    <None Remove="Images\Countries\gq.png" />
+    <None Remove="Images\Countries\gr.png" />
+    <None Remove="Images\Countries\gs.png" />
+    <None Remove="Images\Countries\gt.png" />
+    <None Remove="Images\Countries\gu.png" />
+    <None Remove="Images\Countries\gw.png" />
+    <None Remove="Images\Countries\gy.png" />
+    <None Remove="Images\Countries\hk.png" />
+    <None Remove="Images\Countries\hm.png" />
+    <None Remove="Images\Countries\hn.png" />
+    <None Remove="Images\Countries\hr.png" />
+    <None Remove="Images\Countries\ht.png" />
+    <None Remove="Images\Countries\hu.png" />
+    <None Remove="Images\Countries\id.png" />
+    <None Remove="Images\Countries\ie.png" />
+    <None Remove="Images\Countries\il.png" />
+    <None Remove="Images\Countries\im.png" />
+    <None Remove="Images\Countries\in.png" />
+    <None Remove="Images\Countries\io.png" />
+    <None Remove="Images\Countries\iq.png" />
+    <None Remove="Images\Countries\ir.png" />
+    <None Remove="Images\Countries\is.png" />
+    <None Remove="Images\Countries\it.png" />
+    <None Remove="Images\Countries\je.png" />
+    <None Remove="Images\Countries\jm.png" />
+    <None Remove="Images\Countries\jo.png" />
+    <None Remove="Images\Countries\jp.png" />
+    <None Remove="Images\Countries\ke.png" />
+    <None Remove="Images\Countries\kg.png" />
+    <None Remove="Images\Countries\kh.png" />
+    <None Remove="Images\Countries\ki.png" />
+    <None Remove="Images\Countries\km.png" />
+    <None Remove="Images\Countries\kn.png" />
+    <None Remove="Images\Countries\kp.png" />
+    <None Remove="Images\Countries\kr.png" />
+    <None Remove="Images\Countries\kw.png" />
+    <None Remove="Images\Countries\ky.png" />
+    <None Remove="Images\Countries\kz.png" />
+    <None Remove="Images\Countries\la.png" />
+    <None Remove="Images\Countries\lb.png" />
+    <None Remove="Images\Countries\lc.png" />
+    <None Remove="Images\Countries\li.png" />
+    <None Remove="Images\Countries\lk.png" />
+    <None Remove="Images\Countries\lr.png" />
+    <None Remove="Images\Countries\ls.png" />
+    <None Remove="Images\Countries\lt.png" />
+    <None Remove="Images\Countries\lu.png" />
+    <None Remove="Images\Countries\lv.png" />
+    <None Remove="Images\Countries\ly.png" />
+    <None Remove="Images\Countries\ma.png" />
+    <None Remove="Images\Countries\mc.png" />
+    <None Remove="Images\Countries\md.png" />
+    <None Remove="Images\Countries\me.png" />
+    <None Remove="Images\Countries\mf.png" />
+    <None Remove="Images\Countries\mg.png" />
+    <None Remove="Images\Countries\mh.png" />
+    <None Remove="Images\Countries\mk.png" />
+    <None Remove="Images\Countries\ml.png" />
+    <None Remove="Images\Countries\mm.png" />
+    <None Remove="Images\Countries\mn.png" />
+    <None Remove="Images\Countries\mo.png" />
+    <None Remove="Images\Countries\mp.png" />
+    <None Remove="Images\Countries\mq.png" />
+    <None Remove="Images\Countries\mr.png" />
+    <None Remove="Images\Countries\ms.png" />
+    <None Remove="Images\Countries\mt.png" />
+    <None Remove="Images\Countries\mu.png" />
+    <None Remove="Images\Countries\mv.png" />
+    <None Remove="Images\Countries\mw.png" />
+    <None Remove="Images\Countries\mx.png" />
+    <None Remove="Images\Countries\my.png" />
+    <None Remove="Images\Countries\mz.png" />
+    <None Remove="Images\Countries\na.png" />
+    <None Remove="Images\Countries\nc.png" />
+    <None Remove="Images\Countries\ne.png" />
+    <None Remove="Images\Countries\nf.png" />
+    <None Remove="Images\Countries\ng.png" />
+    <None Remove="Images\Countries\ni.png" />
+    <None Remove="Images\Countries\nl.png" />
+    <None Remove="Images\Countries\no.png" />
+    <None Remove="Images\Countries\np.png" />
+    <None Remove="Images\Countries\nr.png" />
+    <None Remove="Images\Countries\nu.png" />
+    <None Remove="Images\Countries\nz.png" />
+    <None Remove="Images\Countries\om.png" />
+    <None Remove="Images\Countries\pa.png" />
+    <None Remove="Images\Countries\pe.png" />
+    <None Remove="Images\Countries\pf.png" />
+    <None Remove="Images\Countries\pg.png" />
+    <None Remove="Images\Countries\ph.png" />
+    <None Remove="Images\Countries\pk.png" />
+    <None Remove="Images\Countries\pl.png" />
+    <None Remove="Images\Countries\pm.png" />
+    <None Remove="Images\Countries\pn.png" />
+    <None Remove="Images\Countries\pr.png" />
+    <None Remove="Images\Countries\ps.png" />
+    <None Remove="Images\Countries\pt.png" />
+    <None Remove="Images\Countries\pw.png" />
+    <None Remove="Images\Countries\py.png" />
+    <None Remove="Images\Countries\qa.png" />
+    <None Remove="Images\Countries\re.png" />
+    <None Remove="Images\Countries\ro.png" />
+    <None Remove="Images\Countries\rs.png" />
+    <None Remove="Images\Countries\ru.png" />
+    <None Remove="Images\Countries\rw.png" />
+    <None Remove="Images\Countries\sa.png" />
+    <None Remove="Images\Countries\sb.png" />
+    <None Remove="Images\Countries\sc.png" />
+    <None Remove="Images\Countries\sd.png" />
+    <None Remove="Images\Countries\se.png" />
+    <None Remove="Images\Countries\sg.png" />
+    <None Remove="Images\Countries\sh.png" />
+    <None Remove="Images\Countries\si.png" />
+    <None Remove="Images\Countries\sj.png" />
+    <None Remove="Images\Countries\sk.png" />
+    <None Remove="Images\Countries\sl.png" />
+    <None Remove="Images\Countries\sm.png" />
+    <None Remove="Images\Countries\sn.png" />
+    <None Remove="Images\Countries\so.png" />
+    <None Remove="Images\Countries\sr.png" />
+    <None Remove="Images\Countries\ss.png" />
+    <None Remove="Images\Countries\st.png" />
+    <None Remove="Images\Countries\sv.png" />
+    <None Remove="Images\Countries\sx.png" />
+    <None Remove="Images\Countries\sy.png" />
+    <None Remove="Images\Countries\sz.png" />
+    <None Remove="Images\Countries\tc.png" />
+    <None Remove="Images\Countries\td.png" />
+    <None Remove="Images\Countries\tf.png" />
+    <None Remove="Images\Countries\tg.png" />
+    <None Remove="Images\Countries\th.png" />
+    <None Remove="Images\Countries\tj.png" />
+    <None Remove="Images\Countries\tk.png" />
+    <None Remove="Images\Countries\tl.png" />
+    <None Remove="Images\Countries\tm.png" />
+    <None Remove="Images\Countries\tn.png" />
+    <None Remove="Images\Countries\to.png" />
+    <None Remove="Images\Countries\tr.png" />
+    <None Remove="Images\Countries\tt.png" />
+    <None Remove="Images\Countries\tv.png" />
+    <None Remove="Images\Countries\tw.png" />
+    <None Remove="Images\Countries\tz.png" />
+    <None Remove="Images\Countries\ua.png" />
+    <None Remove="Images\Countries\ug.png" />
+    <None Remove="Images\Countries\um.png" />
+    <None Remove="Images\Countries\us.png" />
+    <None Remove="Images\Countries\uy.png" />
+    <None Remove="Images\Countries\uz.png" />
+    <None Remove="Images\Countries\va.png" />
+    <None Remove="Images\Countries\vc.png" />
+    <None Remove="Images\Countries\ve.png" />
+    <None Remove="Images\Countries\vg.png" />
+    <None Remove="Images\Countries\vi.png" />
+    <None Remove="Images\Countries\vn.png" />
+    <None Remove="Images\Countries\vu.png" />
+    <None Remove="Images\Countries\wf.png" />
+    <None Remove="Images\Countries\ws.png" />
+    <None Remove="Images\Countries\xk.png" />
+    <None Remove="Images\Countries\ye.png" />
+    <None Remove="Images\Countries\yt.png" />
+    <None Remove="Images\Countries\za.png" />
+    <None Remove="Images\Countries\zm.png" />
+    <None Remove="Images\Countries\zw.png" />
+    <None Remove="Images\Rain.png" />
+    <None Remove="Images\Snow.png" />
+    <None Remove="Images\Sun.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Images\Cloud.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\ad.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\ae.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\af.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\ag.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\ai.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\al.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\am.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\ao.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\aq.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\ar.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\as.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\at.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\au.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\aw.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\ax.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\az.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\ba.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\bb.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\bd.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\be.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\bf.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\bg.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\bh.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\bi.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\bj.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\bl.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\bm.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\bn.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\bo.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\bq.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\br.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\bs.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\bt.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\bv.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\bw.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\by.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\bz.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\ca.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\cc.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\cd.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\cf.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\cg.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\ch.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\ci.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\ck.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\cl.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\cm.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\cn.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\co.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\cr.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\cu.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\cv.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\cw.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\cx.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\cy.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\cz.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\de.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\dj.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\dk.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\dm.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\do.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\dz.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\ec.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\ee.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\eg.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\eh.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\er.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\es.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\et.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\fi.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\fj.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\fk.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\fm.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\fo.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\fr.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\ga.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\gb-eng.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\gb-nir.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\gb-sct.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\gb-wls.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\gb.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\gd.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\ge.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\gf.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\gg.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\gh.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\gi.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\gl.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\gm.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\gn.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\gp.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\gq.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\gr.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\gs.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\gt.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\gu.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\gw.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\gy.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\hk.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\hm.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\hn.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\hr.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\ht.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\hu.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\id.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\ie.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\il.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\im.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\in.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\io.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\iq.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\ir.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\is.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\it.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\je.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\jm.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\jo.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\jp.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\ke.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\kg.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\kh.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\ki.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\km.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\kn.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\kp.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\kr.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\kw.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\ky.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\kz.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\la.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\lb.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\lc.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\li.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\lk.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\lr.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\ls.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\lt.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\lu.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\lv.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\ly.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\ma.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\mc.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\md.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\me.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\mf.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\mg.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\mh.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\mk.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\ml.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\mm.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\mn.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\mo.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\mp.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\mq.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\mr.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\ms.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\mt.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\mu.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\mv.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\mw.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\mx.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\my.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\mz.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\na.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\nc.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\ne.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\nf.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\ng.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\ni.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\nl.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\no.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\np.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\nr.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\nu.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\nz.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\om.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\pa.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\pe.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\pf.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\pg.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\ph.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\pk.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\pl.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\pm.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\pn.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\pr.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\ps.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\pt.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\pw.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\py.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\qa.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\re.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\ro.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\rs.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\ru.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\rw.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\sa.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\sb.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\sc.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\sd.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\se.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\sg.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\sh.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\si.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\sj.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\sk.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\sl.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\sm.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\sn.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\so.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\sr.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\ss.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\st.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\sv.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\sx.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\sy.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\sz.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\tc.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\td.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\tf.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\tg.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\th.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\tj.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\tk.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\tl.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\tm.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\tn.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\to.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\tr.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\tt.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\tv.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\tw.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\tz.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\ua.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\ug.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\um.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\us.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\uy.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\uz.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\va.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\vc.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\ve.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\vg.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\vi.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\vn.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\vu.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\wf.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\ws.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\xk.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\ye.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\yt.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\za.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\zm.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Countries\zw.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Rain.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Snow.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Sun.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.2" />
+  </ItemGroup>
+
+</Project>
